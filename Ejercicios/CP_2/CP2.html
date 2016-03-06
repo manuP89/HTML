@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Caso Práctico 2</title>
+	</head>
+	<body>
+		<header>
+			<h1>CASO PRÁCTICO 2: Formulario HTML</h1>
+			<p>Creación de un formulario</p>
+		</header>
+		
+		<form action="http://127.0.0.1/login_usuario" method="post">
+			Nombre<br>
+			<input type="text" placeholder="Introduzca su nombre" autofocus required/><br>
+			Contraseña<br>
+			<input type="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" placeholder="Introduzca su contraseña" required/><br>
+			<input type="submit" value="Entrar"/>
+			<input type="reset" value="Limpiar"/><br>
+		</form>
+	</body>
+</html>

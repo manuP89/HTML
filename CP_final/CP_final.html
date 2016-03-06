@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Navegador Ice Weasel">
+	<meta name="keywords" content="HTML,CSS, Navegador, IceWeasel">
+	<meta name="author" content="Manu Perez">
+	<title>Regístrate como usuario</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<img src="img/iceweasel.png" alt="Imagen de cabecera" title="Cabecera" id="peque">
+		<h1>IceWeasel, navegador totalmente libre basado en Mozilla Firefox</h1>
+	</header>
+	<section>
+		<article class="summary">
+			<h2>Últimas noticias</h2><br>
+			<p>Liberada nueva versión de Debian Jessie 8.1</p><br>
+			<p>Opera Brower añade nuevos elementos de HTML5 y CSS3</p>
+		</article>
+		<article class="imgPpal">
+			<img id="grande" src="img/iceweasel.png" alt="Imagen principal" title="Principal">
+			<p id="pieFoto">El navegador libre</p>
+		</article>
+		<table>
+			<thead class="cabTabla">
+				<th colspan="2">Introduce tus datos</th>
+			</thead>		
+				<form action="/ejemplo.html" method="post">
+			<tr>	
+				<td class="izq"><label for="nombre">Nombre:</label></td>
+				<td><input type="text" name="nombre" autofocus required/></td>
+			</tr>
+			<tr>
+				<td class="izq"><label for="apellido">Apellidos:</label></td>
+				<td><input type="text" name="apellido" required/></td>
+			</tr>
+			<tr>	
+				<td class="izq"><label for="mail">Email:</label></td>
+				<td><input type="email" name="mail" required/></td>
+			</tr>
+			<tr>	
+				<td class="izq"><label for="telef">Teléfono:</label></td>
+				<td><input type="tel" name="telef"></td>
+			</tr>
+			<tr>	
+				<td class="izq"><label for="navegadores">¿Qué otros navegadores utilizas?</label></td>
+				<td><select name="navegadores" multiple>
+				 	<option value="chromium">Chromium</option>
+					<option value="firefox">Firefox</option>
+					<option value="ie">Internet Explorer</option>
+					<option value="opera">Opera</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td class="izq"><label for="opinion">Danos tu opinión sobre IceWeasel</label></td>
+				<td><textarea name"opinion" rows="5" cols="30"></textarea></td>
+			</tr>
+			</form>
+		</table>
+	</section>
+	<footer>
+		<ul>
+			<li><a href="">Enlace 1</a></li>
+			<li><a href="">Enlace 2</a></li>
+		</ul>
+	</footer>
+</body>
+</html>

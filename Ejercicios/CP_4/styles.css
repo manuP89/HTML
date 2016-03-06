@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+
+body{
+	font-family: calibri;
+	background-image: url("img/old_map.png");
+}
+
+table, th, td{
+	margin-left: 15%;
+	border: 2px solid black;
+	text-align: center;
+	vertical-align: top;
+	border-collapse: collapse;
+	width: 500px;
+	font-family: verdana;
+}
+
+th, td{
+	height: 30px;
+	border: 1px solid black;
+}
+
+tfoot{
+	font-weight:bold;
+	border: 2px solid black;
+}
+
+thead{
+	border: 2px solid black;
+}
+.naranja{
+	background-color: #F09451;
+}
+
+.azulosc{
+	background-color:#5880BB;
+}
+
+.azulcla{
+	background-color:#C9D9F0;
+}
+
+h1{
+	font: 30px calibri, sans-serif;
+	font-weight: bolder;
+	text-decoration: underline;
+}

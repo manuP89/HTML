@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Caso Práctico 3</title>
+</head>
+	<body>
+		<header>
+			<h1>CASO PRÁCTICO 3: Cambios HTML5</h1>
+			<p>Practica 1: Creación de un formulario de registro</p>
+		</header>
+		
+		<form action="http://127.0.0.1/login_usuario" method="post">
+			<label for="nom_usuario">Nombre Usuario</label><br>
+			<input type="text" id="nom_usuario" name="nom_usuario" placeholder="Introduzca su nombre usuario" autofocus required/><br>
+			<label for="nombre">Nombre</label><br>
+			<input type="text" id="nombre" name="nombre" placeholder="Introduzca su nombre" required/><br>
+			<label for="apellidos">Apellidos</label><br>
+			<input type="text" id="apellidos" name="apellidos" placeholder="Introduzca sus apellidos" required/><br>
+			<label for="contraseña">Contraseña</label><br>
+			<input type="password" id="contraseña" name="contraseña" placeholder="Introduzca su contraseña" required/><br>
+			<label for="sexo">Sexo</label><br>
+			<select id="sexo" name="sexo">
+				<option value="m">Masculino</option>
+				<option value="f">Femenino</option>
+				<option value="o">Otros</option>
+			</select><br>
+			<label for="nacimiento">Fecha de Nacimiento</label><br>
+			<input type="date" id="nacimiento" name="nacimiento"/><br>
+			<label for="color">Color favorito</label><br>
+			<input type="color" id="color" name="color"/><br>
+			
+			<input type="submit" value="Entrar"/>
+			<input type="reset" value="Limpiar"/><br>
+		</form>
+	</body>
+</html>

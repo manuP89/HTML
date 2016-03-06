@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+strong{
+	font-weight: bold;
+}
+
+em{
+	font-style: italic;
+}
+
+body{
+	background-image: url("../img/fondo.jpg");
+	margin: 1%;
+}
+
+li{
+	list-style-type: disc;
+	margin-left:50px;
+}
+.menu li{
+	float: left;
+	list-style: none;
+	margin: 3px;
+}
+.menu {
+	margin-top: 5px;
+	margin-bottom: 50px;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 200%;
+	font-family: times;
+	color: white;
+	clear: both;
+	margin-bottom: 5px;
+}
+
+h2{
+	font-weight: bold;
+	font-size: 120%;
+	color: black;
+}
+
+a{
+	color:#1A58C7;
+	text-decoration: underline;
+}
+
+a:visited{
+	color:#B74F99;
+	text-decoration: underline;
+}
+
+img{
+	border: 1px solid black;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+
+.summary img{
+	float: left;
+	margin-top: 0px;
+}
+
+.summary h2{
+	clear: both;
+}
+.summary p{
+	margin-top: 10px;
+}
+
+.servicios p{
+	margin-top: 15px;
+}
+
+.servicios img{
+	float:right;
+}
+
+.servicios ul{
+	float: left;
+}
+
+footer{
+	clear: both;
+}
+
+footer li{
+	float: left;
+	list-style: none;
+	margin: 3px;
+}
+
+#enlaces{
+	clear:both;
+	margin-left: 38%;
+}
+
+#direccion{
+	clear:both;
+	margin-left: 30%;
+}
+
+footer p{
+	clear: both;
+	margin-left: 36%;
+	margin-top: 10px;
+}
+
+.azul{
+	color: #596FC0;
+	font-weight: bold;	
+}

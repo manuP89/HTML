@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>HOTEL ALTEMIA</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>	
+	<nav class="menu">
+		<ul>
+			<li><a href="">Recepción</a></li> |
+			<li><a href="">Habitaciones</a></li> |
+			<li><a href="">Restaurantes</a></li>
+		</ul>
+	</nav>
+
+	<h1>RECEPCIÓN del Hotel Altemia</h1>
+</header>
+
+<section>
+	<article class="summary">
+		<p>
+			Considerado por los expertos como uno de los 35 mejores hoteles del mundo - tanto por sus servicios, gastronomía, organización, como por su nivel profesional y entorno - ha conseguido crear un lujoso complejo dentro de una gran ciudad como Lanzarote. El Hotel Altemia y sus alrededores, ofrecen un atractivo único que resulta difícil de encontrar en un ambiente urbano.
+		</p>
+		<img src="img/recepcion.jpg" alt="Imagen de la recepción del hotel">
+	</article>
+</section>
+</body>
